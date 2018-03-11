@@ -1,5 +1,5 @@
 //Kevin Nguyen
-//Basic Shell for C++ (Cpp) that returns a binary representation for a given value.
+//Basic Shell for C++ (Cpp) that returns a binary representation for a given value. 1 Byte = 8 bits.
 
 /*
 How to run (linux):
@@ -18,7 +18,6 @@ using namespace std;
 //main driver
 int main(int argc, char** argv) {
 	//local declarations
-	cout << "Hello World" << endl;
 }
 
 //Functions implementations goes below
