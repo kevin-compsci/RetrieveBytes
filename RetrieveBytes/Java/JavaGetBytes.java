@@ -1,6 +1,6 @@
 /*
 Kevin Nguyen
-Basic Java programs that outputs the byte representation of a given value. 1 byte = 8 bits
+Basic Java programs that outputs the byte representation of a given value. 1 byte = 8 bits.
 
 How to run (linux):
 	1.) open command line and cd into directory folder of where this code is
