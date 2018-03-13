@@ -1,5 +1,5 @@
 //Kevin Nguyen
-//Basic Shell for C++ (Cpp) that returns a binary representation for a given value. 1 Byte = 8 bits.
+//Basic program in C++ (Cpp) that returns a binary representation for a given value. 1 Byte = 8 bits. Large values may have odd truncated digits so increase the # of bits as needed.
 
 /*
 How to run (linux):
@@ -11,6 +11,7 @@ How to run (linux):
 //include statements
 #include <cstdlib>
 #include <iostream>
+#include <bitset>
 using namespace std;
 
 //function definitions
@@ -18,6 +19,8 @@ using namespace std;
 //main driver
 int main(int argc, char** argv) {
 	//local declarations
+	int value = 10; //<-- value to retrive bytes from
+	cout << bitset<8>(value).to_string() << endl; //<--- utilize bitset to retrieve the # of bits based on some value
 }
 
 //Functions implementations goes below
