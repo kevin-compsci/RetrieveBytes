@@ -14,13 +14,9 @@ How to run (linux):
 #include <bitset>
 using namespace std;
 
-//function definitions
-
 //main driver
 int main(int argc, char** argv) {
 	//local declarations
 	int value = 10; //<-- value to retrive bytes from
 	cout << bitset<8>(value).to_string() << endl; //<--- utilize bitset to retrieve the # of bits based on some value
 }
-
-//Functions implementations goes below
