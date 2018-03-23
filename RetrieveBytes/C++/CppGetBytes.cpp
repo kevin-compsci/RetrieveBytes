@@ -1,5 +1,5 @@
 //Kevin Nguyen
-//Basic program in C++ (Cpp) that returns a binary representation for a given value. 1 Byte = 8 bits. Large values may have odd truncated digits so increase the # of bits as needed.
+//Basic program in C++ (Cpp) that returns a binary representation for a given value. 1 Byte = 8 bits. Large values may have odd truncated digits so increase the # of bits as needed. Signed/Unsigned bits are not considered.
 
 /*
 How to run (linux):
