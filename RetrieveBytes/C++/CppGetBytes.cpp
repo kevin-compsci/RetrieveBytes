@@ -10,7 +10,6 @@ How to run (linux):
 
 //include statements
 #include <cstdlib>
-#include <iostream>
 #include <bitset>
 using namespace std;
 
