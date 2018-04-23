@@ -35,6 +35,7 @@ class JavaGetBytes {
 		int i = 0, limit = 0, length = binaryString.length();
 		String temp = "", newBinaryString = "";
 
+		//Case structure based on number of bits from string
 		if(length == 8) { //if exact length then output original
 			return binaryString;
 		}
