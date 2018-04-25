@@ -31,7 +31,6 @@ def formatBinary(binaryString):
 		newBinaryString = binaryString[limit:]; #get substring and set to result
 	return newBinaryString; #return results
 
-
 #main driver below
 value = 259 #<--- value for representation
 binaryString = "{0:b}".format(abs(value));
